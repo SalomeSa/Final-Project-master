@@ -49,6 +49,14 @@
     left: 50%
 }
 
+.fa-right-to-bracket{
+    color: var(--main-color1);
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+}
+
 .nav-ul{
     max-width: 700px;
     display: -webkit-box;
@@ -107,14 +115,6 @@ header li a::after{
 }
 header li a:hover::after{
     width: 50%;
-}
-
-.fa-right-to-bracket{
-    color: var(--main-color1);
-    font-size: 20px;
-    position: fixed;
-    right: 30px;
-    top: 45px;
 }
 
 .fa-right-to-bracket:hover{

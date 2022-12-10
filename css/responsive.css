@@ -60,14 +60,26 @@
         flex-direction: column;
     }
 
-    .nav-bar ul{
+    .nav-ul{
         flex-direction: column;
         align-items: center;
     }
 
+    .nav-ul li{
+        margin-bottom: 20px;
+    }
+
+
     .nav-bar.navActive{
         display: block;  
     }
+
+    .fa-right-to-bracket{
+        position: fixed;
+        top: 45px;
+        right: 20px;
+    }
+
 
 
     
