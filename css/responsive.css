@@ -1,0 +1,167 @@
+@media (max-width: 1056px){
+    .flex{
+        max-width: 90%;
+    }
+
+    .service-section2{
+        max-width: 80%;
+    }
+
+    .event-section2{
+        max-width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .eventbox{
+        margin-bottom: 20px;
+    }
+}
+    
+
+@media (max-width: 950px){
+
+   
+    .goals-container{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .text5, .text4{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+
+    .section2pic{
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 850px){
+    .articlebox{
+        flex-direction: column;
+        max-width: 400px;
+    }
+    .textbox-article{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 810px){
+    .burger{
+        display: block;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    .nav-bar ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar.navActive{
+        display: block;  
+    }
+
+
+    
+
+}
+
+@media (max-width: 720px){
+    .event-section2{
+        max-width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 670px){
+    .ending, .copyright{
+        width: 50%;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 550px){
+    .pic1{
+        width: 80%;
+    }
+
+    .text5, .text4{
+        width: 80%;
+    }
+
+    .text4{
+        left: 20px;
+        text-align: center;
+    }
+
+    
+}
+
+@media (max-width: 500px){
+
+
+    .input, .submit{
+        max-width: 300px;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 440px){
+    .section2pic{
+        width: 90%;
+    }
+
+    .articlebox, .articlepic, .textbox-article{
+        max-width: 300px;
+    }
+}
+    
+@media (max-width: 385px){
+
+
+    .logo{
+        margin-bottom: 10px;
+    }
+
+    .home-section1{
+        background-position: 70%;
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2pic{
+        width: 80%;
+    }
+
+    .pic1{
+        margin-top: 20px;
+    }
+
+    .graybox2{
+        margin-top: 20px;
+    }
+
+    .input, .submit{
+        width: 270px;
+        justify-content: center;
+    }
+   
+
+}
+

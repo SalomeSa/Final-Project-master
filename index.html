@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information Platform - Get all the information on how to take care of your pets.">
+    <meta name="keywords" content="pet, stray, care, services, veterinary, grooming, shelter, food">
+    <meta name="author" content="Salome Shakarashvili">
+    <meta property="og:url" content="https://salomesa.github.io/Final-Project_draft/"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pet Platform" />
+    <meta property="og:description" content="All the pet and stray information on one platform" />
+    <meta property="og:image" content="https://scontent.ftbs4-2.fna.fbcdn.net/v/t39.30808-6/317834109_2062707483940475_8208923774105240770_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_ohc=iS2BgN3P56oAX9X2WGO&_nc_ht=scontent.ftbs4-2.fna&oh=00_AfCNmScIoniUkuY9hwtSDBv2jS2R-n43IHFGk_iN_eTp1g&oe=6394F5B8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Main page</title>
+</head>
+<body class="body">
+    <header class="flex">
+        <div class="logobox">
+            <a class="logo" href="index.html">logo</a>
+        </div>
+        <nav class="nav-bar" id="nav-bar">
+            <ul class="nav-ul">
+                <li><a class="active" href="index.html">home</a></li>
+                <li><a href="aboutus.html">about us</a></li>
+                <li><a href="findservices.html">services</a></li>
+                <li><a href="articles.html">articles</a></li>
+                <li><a href="events.html">events</a></li>
+            </ul>
+        </nav>
+        <div class="burger" id="burger">
+            <i class="fa-solid fa-bars" onclick=""></i>
+        </div>
+        <div class="login">
+            <a href="register.html"><i class="fa-solid fa-right-to-bracket"></i></a>
+        </div>
+    </header>
+    <main>
+        <section class="home-section1">
+            <div class="graybox">
+                <h3 class="box-heading">Find all information about pets and strays in one place!</h3>
+            </div>
+        </section>
+        <section class="home-section2">
+            <div class="home-container2">
+                <img class="section2pic" src="img/aboutus.jpg" alt="team">
+                <div class="section2text">
+                    <h5 class="heading5">About us</h5>
+                    <p class="text2">We are a small group of friends that all have the same worry in their hearts. There are thousands of facebook groups to deal with stray animals as well as inform people about how to take care of their pets. However, all the information gets losts in huge amount of posts made each day. Therefore we created this platform, so the necessary information would be all in same place and easily reachable...<a class="read" href="aboutus.html">read more</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="home-section3">
+            <div class="home-container3">
+                <div class="section2text">
+                    <h5 class="heading5">services</h5>
+                    <p class="text2">We are not the service providers, however we will bring you the information of all the service providers in the field. You will find information from vet clinics to dog walkers, from petshops to petsitters. Find the closest services to your home so taking care of your loved one would be quick and easy...<a class="read" href="findservices.html">read more</a></p>
+                </div>
+                <img class="section2pic" src="img/veterinary.jpg" alt="team">
+            </div>
+        </section>
+        <section class="home-section2">
+            <div class="home-container2">
+                <img class="section2pic" src="img/article.jpg" alt="team">
+                <div class="section2text">
+                    <h5 class="heading5">Articles</h5>
+                    <p class="text2">We all understand that to take good care you need to be informed. Pets are not toys and they need a lot of care. If you have taken in a new pet, you will find a lot of usefull information here. Read about vaccination, sterilization, healthy nutrition, safety and much more...<a class="read" href="articles.html">read more</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="ending">
+            <img class="logo2" src="img/logo2.png" alt="logo">
+            <div class="contactbox">
+                <h6 class="heading6">contacts</h6>
+                <ul>
+                    <li class="contact-li">
+                        <i class="fa-regular fa-envelope"></i>
+                        <a class="text6" href="#">petinfo@gmail.ge</a></li>
+                    <li class="contact-li">
+                        <i class="fa-solid fa-phone"></i>
+                        <a class="text6" href="#">+955 559 000 000</a></li>
+                    <li class="contact-li">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a class="text6" href="#">Ana Politkovskaia, Saburtalo, Tbilisi</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <div class="fb">
+                    <a href="#"> <i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+                <div class="insta">
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <i class="fa-solid fa-copyright"></i>
+            <p class="right">All rights reserved</p>
+        </div>
+        <div class="messagecontainer">
+            <p class="message" id="messagebutton" onclick="show()">
+                Send us a message
+            </p>
+            <div class="messagebox" id="messagebox">
+                <div class="boxheader">
+                    <p>Write your message</p>
+                    <p class="close" onclick="hide()">&#x2715;</p>
+                </div>
+                <div class="boxmain">
+                    <input type="text" name="fullname" id="fullname" placeholder="Full name">
+                    <input type="text" name="email" id="email" placeholder="E-mail address">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    <p class="send" onclick="hide()">SEND</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/d933acbc9b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
