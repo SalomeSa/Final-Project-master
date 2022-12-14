@@ -23,8 +23,7 @@
 
    
     .goals-container{
-        max-width: 600px;
-        margin: 0 auto;
+        max-width: 80%
     }
 
     .text5, .text4{
@@ -91,11 +90,6 @@
         top: 45px;
         right: 20px;
     }
-
-
-
-    
-
 }
 
 @media (max-width: 720px){
